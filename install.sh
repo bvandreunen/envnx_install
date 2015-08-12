@@ -12,7 +12,7 @@ cw="\033[33;37m"
 
 hr="-----------"
 
-echo "\nDownloading envnx...\c"
+echo "\nInstalling envnx...\c"
 
 # Get the archive
 curl -so envnx.zip -L https://github.com/bvandreunen/envnx/archive/master.zip
@@ -88,5 +88,10 @@ fi
 echo "$cg\c"
 
 echo "\nCongratulations, envnx installation has been completed!"
+
+if [[ $up != "y" ]]; then
+  echo "Go into the vagrant folder and run 'vagrant up' when you are ready to start up your box"
+fi
+
 echo "Please see the URL below or the README file for further documentation."
 echo "\nhttps://github.com/bvandreunen/envnx\n"
