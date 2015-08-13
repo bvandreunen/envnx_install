@@ -12,7 +12,7 @@ cw="\033[33;37m"
 
 hr="-----------"
 
-echo "\nInstalling envnx...\c"
+echo "\nDownloading envnx...\c"
 
 # Get the archive
 curl -so envnx.zip -L https://github.com/bvandreunen/envnx/archive/master.zip
