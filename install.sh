@@ -12,6 +12,8 @@ cw="\033[33;37m"
 
 hr="-----------"
 
+clear
+
 echo "\nDownloading envnx...\c"
 
 # Get the archive
